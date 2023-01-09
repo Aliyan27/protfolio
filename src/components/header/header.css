@@ -1,0 +1,6 @@
+header {
+  position: absolute;
+  width: 100%;
+  padding: 2em 0;
+  z-index: 2;
+}

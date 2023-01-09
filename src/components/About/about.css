@@ -1,0 +1,26 @@
+.about {
+  padding: 7em 0;
+}
+.about .container h2 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.about .container p {
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+.about .container span {
+  cursor: pointer;
+}
+.button {
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #8c8c8c;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}

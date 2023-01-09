@@ -1,0 +1,21 @@
+.Banner .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Banner .container p {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 1em;
+}
+.Banner {
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
