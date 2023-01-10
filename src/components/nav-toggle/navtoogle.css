@@ -1,0 +1,18 @@
+.navtoggle {
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  color: #121212;
+  font: bold 14px/0.4 Helvetica;
+  text-transform: uppercase;
+  text-indent: -55px;
+  background: #fff;
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}

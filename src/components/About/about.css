@@ -24,3 +24,31 @@
   font-size: 2rem;
   margin-bottom: 3rem;
 }
+.about-img {
+  background-image: url("../../assets/img-2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container {
+  display: flex;
+  column-gap: 50px;
+}
+.description {
+  position: relative;
+}
+.description h3 {
+  position: absolute;
+  top: -151px;
+  left: 149px;
+  right: 0;
+  bottom: 0;
+  font-weight: 700 !important;
+  color: rgba(255, 255, 255, 0.08);
+  text-transform: uppercase;
+  font-size: 10em;
+}
