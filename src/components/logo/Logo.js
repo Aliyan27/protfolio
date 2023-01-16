@@ -1,7 +1,7 @@
 import React from "react";
 import "./logo.css";
 import { Link } from "react-router-dom";
-import img from "../../assets/img-1.jpeg";
+import img from "../../assets/logo.jpg";
 
 const Logo = () => {
   return (
@@ -10,7 +10,7 @@ const Logo = () => {
         <div className="logo-image">
           <img src={img} alt="Missing" />
         </div>
-        <span> Muhammad Aliyan</span>
+        <span>786 Tech</span>
       </Link>
     </>
   );

@@ -1,9 +1,10 @@
 import React from "react";
-import Header from "./components/header/Header";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Banner from "./components/Banner/Banner";
+import Header from "./components/header/Header";
 import About from "./components/About/About";
 import Navbar from "./components/navbarmain/Navbar";
+import Mainpage from "./Mainpage";
+import Contactus from "./components/contact us/Contactus";
 
 const Allroute = () => {
   return (
@@ -11,12 +12,12 @@ const Allroute = () => {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Banner />} />
+          <Route path="/" element={<Mainpage />} />
           <Route path="/about" element={<About />} />
           <Route path="/navbar" element={<Navbar />} />
+          <Route path="/Contactus" element={<Contactus />} />
         </Routes>
       </BrowserRouter>
-      <About />
     </>
   );
 };

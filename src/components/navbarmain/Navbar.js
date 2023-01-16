@@ -7,11 +7,18 @@ const Navbar = () => {
       <div className="container">
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Resume</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li className="text-fill-ttb" id="test">
+              about
+            </li>
+            <li className="text-fill-ttb" id="test">
+              Services
+            </li>
+            <li className="text-fill-ttb" id="test">
+              team
+            </li>
+            <li className="text-fill-ttb" id="test">
+              Contact
+            </li>
           </ul>
         </nav>
       </div>

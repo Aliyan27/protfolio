@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-img"></div>
         <div className="description">
           <h3>About</h3>
-          <h2>Hi! I'm Muhammad Aliyan</h2>
+          <h2>Hi! We are 786 tech</h2>
           <p>
             "Innovative Programmer and internet Entrepreneur striving to make
             the world a more unified and connected place. A creative thinker,

@@ -1,0 +1,94 @@
+.Form .container form {
+  display: flex;
+  flex-direction: column;
+  max-width: 264px;
+  row-gap: 20px;
+}
+.Form .container {
+  padding: 200px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+}
+.Form .container form Label {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.Form .container form input {
+  border: none;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  outline: none;
+  padding: 10px 0;
+  background-color: transparent;
+  color: #fff;
+}
+.Form .container form button {
+  border: none;
+  font-size: 20px;
+  padding: 20px;
+  max-width: 200px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  cursor: pointer;
+}
+.Form .container form button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  transition: all 1s;
+}
+.Form .container form button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  transition: all 1s;
+}
+
+.Form .container form button:hover:before {
+  left: 0;
+}
+.Form .container form button:hover:after {
+  right: 0;
+}
+.Form .container form span:before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  right: 0%;
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  transition: all 1s;
+}
+.Form .container form button:hover span:before {
+  top: 0;
+}
+.Form .container form span:after {
+  content: "";
+  position: absolute;
+  bottom: -100%;
+  left: 0%;
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  transition: all 1s;
+}
+.Form .container form button:hover span:after {
+  bottom: 0;
+}

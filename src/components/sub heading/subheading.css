@@ -1,0 +1,9 @@
+h2 {
+  font-size: 55px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  display: inline-block;
+}

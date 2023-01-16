@@ -7,9 +7,11 @@ const Navtoggle = () => {
     <>
       <Link to={"/navbar"}>
         <div className="navbar">
-          <div className="navtoggle"></div>
-          <div className="navtoggle"></div>
-          <div className="navtoggle"></div>
+          <div class="wrapper">
+            <div class="top bar"></div>
+            <div class="middle bar"></div>
+            <div class="bottom bar"></div>
+          </div>
         </div>
       </Link>
     </>

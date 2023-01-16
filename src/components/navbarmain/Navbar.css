@@ -1,6 +1,38 @@
 nav ul li {
-  font-size: 20px;
-  color: white;
-  position: relative;
-  padding: 0 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 1.1;
+  padding: 0 !important;
+  display: inline-block;
+  transition: all ease-in-out 0.2s;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: orangered;
+}
+
+nav {
+  position: absolute;
+  top: 206px;
+  left: 310px;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+#test {
+  background: linear-gradient(#ff6200, #fd7f2c) left no-repeat, #d1d2de;
+  background-size: 0% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 1s ease-in-out;
+}
+
+#test:hover {
+  background-size: 100% 100%;
 }
